@@ -2,6 +2,76 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 9.0.0 (2022-10-24)
+
+### ⚠ BREAKING CHANGES
+
+- angular upgrade (#137)
+
+### Features
+
+- angular and nx upgrade to 13 ([#102](https://github.com/LeonFretter/xng-breadcrumb/issues/102)) ([3b1b698](https://github.com/LeonFretter/xng-breadcrumb/commit/3b1b698f92ac525908f75fe5c6330ab278189772))
+- angular material upgrade ([0fd151d](https://github.com/LeonFretter/xng-breadcrumb/commit/0fd151d4b68d80b9b0c459a81a1e8ecc7b734f36))
+- angular upgrade ([#137](https://github.com/LeonFretter/xng-breadcrumb/issues/137)) ([a5d7cfa](https://github.com/LeonFretter/xng-breadcrumb/commit/a5d7cfa41d8f0dc855103817578d60131e2d8095))
+- angular version upgrade ([f9388b5](https://github.com/LeonFretter/xng-breadcrumb/commit/f9388b5b68e213f9778f9265a48f2abce66f7edb))
+- **app:** usecase for repeated query param ([b364d02](https://github.com/LeonFretter/xng-breadcrumb/commit/b364d02f675d51c00ea94fe4ee69ce95ec1221d0))
+- auto generation of label ([9e40dfb](https://github.com/LeonFretter/xng-breadcrumb/commit/9e40dfb9ae02c607255430414ca070e51c8e913b))
+- base CI ([6bff025](https://github.com/LeonFretter/xng-breadcrumb/commit/6bff025b8a396af638fc3bc57c1e4dfa7a90f708))
+- breadcrumb as a function, merge with child breadcrumbs properly ([#45](https://github.com/LeonFretter/xng-breadcrumb/issues/45)) ([fee7608](https://github.com/LeonFretter/xng-breadcrumb/commit/fee7608eda2932c12e8ab2cce6e4238dece352a6))
+- CI ([69648aa](https://github.com/LeonFretter/xng-breadcrumb/commit/69648aac3a205ffa727668720d6b035232c72720))
+- contributor ([3da9791](https://github.com/LeonFretter/xng-breadcrumb/commit/3da9791ac3f6bf757f475de1eb449ee60b1cd429))
+- contributor ([702b1e8](https://github.com/LeonFretter/xng-breadcrumb/commit/702b1e8426a7961f0b79a55d5bd90c7b09016470))
+- env example ([d52eb4c](https://github.com/LeonFretter/xng-breadcrumb/commit/d52eb4c3d92e2b61c674c94ab1a7bf651677b946))
+- examples with deep routes ([c0f9e1b](https://github.com/LeonFretter/xng-breadcrumb/commit/c0f9e1b01a227d133e111405a90c9502a7440584))
+- got demo app to test breadcrumbs ([5dc1acb](https://github.com/LeonFretter/xng-breadcrumb/commit/5dc1acb8aba82de2243d949af42024192ac9f1bc))
+- got demo app to test breadcrumbs ([5d491d7](https://github.com/LeonFretter/xng-breadcrumb/commit/5d491d7941c8663dfbdb250e4309392c606b97da))
+- index and count ([#62](https://github.com/LeonFretter/xng-breadcrumb/issues/62)) ([ecd6ff8](https://github.com/LeonFretter/xng-breadcrumb/commit/ecd6ff8f8307511d5099456667e3c546ef4a8026))
+- lib added with nx ([2c7d3bc](https://github.com/LeonFretter/xng-breadcrumb/commit/2c7d3bcca8e59dbc82cd48072ff9eccd0ceb50dc))
+- nx migrate 14 ([#136](https://github.com/LeonFretter/xng-breadcrumb/issues/136)) ([2889168](https://github.com/LeonFretter/xng-breadcrumb/commit/28891685699f9f8faf9b43275572fa172b289e5c))
+- nx migrate and codeowners ([#71](https://github.com/LeonFretter/xng-breadcrumb/issues/71)) ([a7c0377](https://github.com/LeonFretter/xng-breadcrumb/commit/a7c0377edc6d51c116725a77ab677f407eee6c22))
+- nx upgrade ([ebf2044](https://github.com/LeonFretter/xng-breadcrumb/commit/ebf204478e7acc073659e0e37c8ce39edafa5f57))
+- nx upgrade, angular upgrade to v12 and nx cloud connect ([#83](https://github.com/LeonFretter/xng-breadcrumb/issues/83)) ([8a57f89](https://github.com/LeonFretter/xng-breadcrumb/commit/8a57f89d3a134733ad04618e0390bf45e95b5e87))
+- nx version upgrade ([#63](https://github.com/LeonFretter/xng-breadcrumb/issues/63)) ([50dbf89](https://github.com/LeonFretter/xng-breadcrumb/commit/50dbf89ae9e6c1604344460903ad470475302142))
+- open link in new tab on cmd + click, option to open links in new tab by default ([#82](https://github.com/LeonFretter/xng-breadcrumb/issues/82)) ([54b4998](https://github.com/LeonFretter/xng-breadcrumb/commit/54b499875bbc259b796febb458f0573ffd043b52))
+- provide ability to disable fragment ([#42](https://github.com/LeonFretter/xng-breadcrumb/issues/42)) ([7ba9e7b](https://github.com/LeonFretter/xng-breadcrumb/commit/7ba9e7ba3a3448411ad794edb5b0bc4bd7ffd312))
+- provide breadcrumb route interceptor for conditional routing and access to routeLink ([#51](https://github.com/LeonFretter/xng-breadcrumb/issues/51)) ([bc4a5bc](https://github.com/LeonFretter/xng-breadcrumb/commit/bc4a5bc4e39707f4e6d93517b9ab6eadd5b568cc))
+- revert nx migrated version ([3f7d0b8](https://github.com/LeonFretter/xng-breadcrumb/commit/3f7d0b82f1d98ad726ec33266445de25d50c2030))
+- star war demo ([d284135](https://github.com/LeonFretter/xng-breadcrumb/commit/d284135376b924bd3fca0e3efa7fd7f7f6e381e2))
+- star wars demo app ([5bd26cb](https://github.com/LeonFretter/xng-breadcrumb/commit/5bd26cb8519f7d6d422b10868c2fe50031213e0b))
+- update nx version ([#73](https://github.com/LeonFretter/xng-breadcrumb/issues/73)) ([3c058e6](https://github.com/LeonFretter/xng-breadcrumb/commit/3c058e6f7d34db5dc40ead491146b34e44c4d2c7))
+- updated docs and GA setup ([#107](https://github.com/LeonFretter/xng-breadcrumb/issues/107)) ([36777f0](https://github.com/LeonFretter/xng-breadcrumb/commit/36777f057a55d0ad112aa83c2473d29bdcd0d619))
+- use xng-breadcrumb in SSR and docs updated ([#126](https://github.com/LeonFretter/xng-breadcrumb/issues/126)) ([8ce6489](https://github.com/LeonFretter/xng-breadcrumb/commit/8ce6489bc12df1e984d75f6ea9ddcbd3022b52eb))
+- xng-breadcrumb base library setup ([37cdb35](https://github.com/LeonFretter/xng-breadcrumb/commit/37cdb3513c95fb8e96cdb638b62d111b1b9e7336))
+- xng-breadcrumb import ([abb4948](https://github.com/LeonFretter/xng-breadcrumb/commit/abb4948709bb8863896c11a8a9765d8567e8ffd5))
+
+### Bug Fixes
+
+- **accessibility:** removed aria-role from the separator ([#141](https://github.com/LeonFretter/xng-breadcrumb/issues/141)) ([9b2589f](https://github.com/LeonFretter/xng-breadcrumb/commit/9b2589f07ca546e46fc5f974fbd0aac80244327e))
+- angular dependency, remove fakerjs, nguniversal demo app ([#123](https://github.com/LeonFretter/xng-breadcrumb/issues/123)) ([8cd1f98](https://github.com/LeonFretter/xng-breadcrumb/commit/8cd1f98817d223f852a71f07176ad5536db331eb))
+- **app:** update prefix ([a3ccc32](https://github.com/LeonFretter/xng-breadcrumb/commit/a3ccc325ab6175e9ab1c38e832cbd1e741d8e5f1))
+- avoid empty breadcrumb at start when the for autogenerated case ([#56](https://github.com/LeonFretter/xng-breadcrumb/issues/56)) ([b82ab8b](https://github.com/LeonFretter/xng-breadcrumb/commit/b82ab8b7ada4b9aa9a875320cf29cbab61b1d091))
+- bug fix that handles the root breadcrumb same as remaining items, version upgrades ([#52](https://github.com/LeonFretter/xng-breadcrumb/issues/52)) ([71316da](https://github.com/LeonFretter/xng-breadcrumb/commit/71316daa1678b850a455f94cdefa651de42f2db0))
+- change autogenerated to false on dynamically setting a label ([#101](https://github.com/LeonFretter/xng-breadcrumb/issues/101)) ([95506eb](https://github.com/LeonFretter/xng-breadcrumb/commit/95506eb94825be5f9e6e2d5ca1fce91e2a5d307f))
+- change breadcrumb array to observable with pipe async ([#75](https://github.com/LeonFretter/xng-breadcrumb/issues/75)) ([fb05322](https://github.com/LeonFretter/xng-breadcrumb/commit/fb0532232a33a9c39949292aeede0c91d8353721))
+- empty breadcrumb at start ([#58](https://github.com/LeonFretter/xng-breadcrumb/issues/58)) ([8f08cf3](https://github.com/LeonFretter/xng-breadcrumb/commit/8f08cf31301ce1fae02c678f968e0ce0b66ae6db))
+- enabledNonBlocking strategy for routes ([#115](https://github.com/LeonFretter/xng-breadcrumb/issues/115)) ([275bd27](https://github.com/LeonFretter/xng-breadcrumb/commit/275bd2716b5796ee419b25548ea00e2b400acc49))
+- fix peer deps ([#125](https://github.com/LeonFretter/xng-breadcrumb/issues/125)) ([9712187](https://github.com/LeonFretter/xng-breadcrumb/commit/97121876e5f96ace6f2bbff11db0305ca67de85b))
+- fixes QueryParams being assigned to incorrect routes ([37bf824](https://github.com/LeonFretter/xng-breadcrumb/commit/37bf824132a3d5124e01a9ed0503c253ef20223c))
+- From Yarn 1.0 onwards, scripts don't require -- for options to be forwarded ([212178e](https://github.com/LeonFretter/xng-breadcrumb/commit/212178e8460191ee3b9dd0e484160ec8384d1907))
+- implement onDestroy ([be01ebc](https://github.com/LeonFretter/xng-breadcrumb/commit/be01ebcbace1875a66753ae69f5bebf45123ad83))
+- **lib:** get route config data even with routeReuseStrategy false ([#93](https://github.com/LeonFretter/xng-breadcrumb/issues/93)) ([3671d67](https://github.com/LeonFretter/xng-breadcrumb/commit/3671d67e77cb877648f1416a6031d9f114344c13))
+- lint and material theme ([#53](https://github.com/LeonFretter/xng-breadcrumb/issues/53)) ([2317fa5](https://github.com/LeonFretter/xng-breadcrumb/commit/2317fa54e490b9039c297a41bf66a347e332431a))
+- lint errors ([0ead151](https://github.com/LeonFretter/xng-breadcrumb/commit/0ead15195713e33590e395225603952cfd16dae4))
+- remove peer deps ([#124](https://github.com/LeonFretter/xng-breadcrumb/issues/124)) ([98d6023](https://github.com/LeonFretter/xng-breadcrumb/commit/98d60239a91e9dce6d592b9382f8c1f04deb02f3))
+- remove styles ([37fc12d](https://github.com/LeonFretter/xng-breadcrumb/commit/37fc12d27f306958e495ed330985541d9a58371b))
+- respect angular guard checks and do not navigate if authGuard check returns false ([#114](https://github.com/LeonFretter/xng-breadcrumb/issues/114)) ([48f4772](https://github.com/LeonFretter/xng-breadcrumb/commit/48f4772d804aa463a9df1815a3464be3917304a4))
+- rxjs peer dep ([#128](https://github.com/LeonFretter/xng-breadcrumb/issues/128)) ([4576cfd](https://github.com/LeonFretter/xng-breadcrumb/commit/4576cfd1d6bfd4f8b2ce62bb319c32420561736d))
+- should be able to specify breadcrumb alias without @ prefix ([#48](https://github.com/LeonFretter/xng-breadcrumb/issues/48)) ([c29f4d4](https://github.com/LeonFretter/xng-breadcrumb/commit/c29f4d40b96e852acbc4cc08dd6f24872f1af6eb))
+- unit tests ([f6350a4](https://github.com/LeonFretter/xng-breadcrumb/commit/f6350a42f74265d6835c223d6a2397aff31b86d3))
+- use tabindex and listen to keyboard enter since routerLink is no longer used ([#67](https://github.com/LeonFretter/xng-breadcrumb/issues/67)) ([de6d7fa](https://github.com/LeonFretter/xng-breadcrumb/commit/de6d7fae41cdbf182afc42824349a10a401e8983))
+- verify if breadcrumb array is not empty ([13f9151](https://github.com/LeonFretter/xng-breadcrumb/commit/13f915164f4e18326534a18cd80ff981e627dca6))
+- xng-breadcrumb inside ngIf needs a special check since router events are already finished ([#97](https://github.com/LeonFretter/xng-breadcrumb/issues/97)) ([c7ce2d0](https://github.com/LeonFretter/xng-breadcrumb/commit/c7ce2d0304c03ff65fb664b0a315ebfb88f99849))
+
 ### [8.0.2](https://github.com/udayvunnam/xng-breadcrumb/compare/v8.0.1...v8.0.2) (2022-06-20)
 
 ### Bug Fixes
