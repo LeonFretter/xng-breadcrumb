@@ -3,6 +3,7 @@ import {
   ActivatedRoute,
   ActivatedRouteSnapshot,
   GuardsCheckEnd,
+  NavigationEnd,
   Router,
 } from '@angular/router';
 import { BehaviorSubject } from 'rxjs';
@@ -68,14 +69,12 @@ export class BreadcrumbService {
     this.setupBreadcrumbs(this.activatedRoute.snapshot);
 
     this.router.events
-      .pipe(filter((event) => event instanceof GuardsCheckEnd))
-      .subscribe((event) => {
+      .pipe(filter((event) => event instanceof NavigationEnd))
+      .subscribe(() => {
         // activatedRoute doesn't carry data when shouldReuseRoute returns false
         // use the event data with GuardsCheckEnd as workaround
         // Check for shouldActivate in case where the authGuard returns false the breadcrumbs shouldn't be changed
-        if (event instanceof GuardsCheckEnd && event.shouldActivate) {
-          this.setupBreadcrumbs(event.state.root);
-        }
+        this.setupBreadcrumbs(this.activatedRoute.snapshot);
       });
   }
 
